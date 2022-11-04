@@ -25,7 +25,7 @@ public class HomePage {
     @FindBy(xpath = "//h3[contains(text(),'Penti Kadın 50 Denye Pantolon Çorabı Siyah')]")
     public WebElement ürünüseç;
 
-    @FindBy(xpath = "//span[text()=\"SİYAH\"]")
+    @FindBy(xpath = "//span[.=\"SİYAH \"]")
     public WebElement renk;
 
     @FindBy(className = "icon-sepetekle")
@@ -45,6 +45,8 @@ public class HomePage {
 
     @FindBy(xpath = "//button[contains(text(),'DEVAM ET')]")
     public WebElement devamEtButton;
+
+
 
 
     @FindBy(partialLinkText = "Yeni adres oluştur")

@@ -21,7 +21,7 @@ public class Driver {
             String browser = ConfigReader.getProperty("browser");
             if ("chrome".equals(browser)) {
                 WebDriverManager.chromedriver().setup();
-                driver = new ChromeDriver();
+                driver = new ChromeDriver(obj);
             } else if ("chrome-headless".equals(browser)) {
                 WebDriverManager.chromedriver().setup();
                 driver = new ChromeDriver(new ChromeOptions().setHeadless(true));

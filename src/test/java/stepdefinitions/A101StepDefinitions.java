@@ -32,7 +32,7 @@ public class A101StepDefinitions {
         homePage.kategori.click();
         JSUtils.clickElementByJS(homePage.siyahçorap);
         Thread.sleep(1000);
-        JSUtils.clickElementByJS(homePage.ürünüseç);
+
 
     }
 
@@ -42,10 +42,12 @@ public class A101StepDefinitions {
         String beklenenürünrenk = "SİYAH";
         Assert.assertEquals(beklenenürünrenk, seçilenürünrenk);
 
+
     }
 
     @When("Sepete ekle butonuna tıklar")
     public void sepete_ekle_butonuna_tıklar() {
+        JSUtils.clickElementByJS(homePage.ürünüseç);
         homePage.sepeteekle.click();
 
     }
