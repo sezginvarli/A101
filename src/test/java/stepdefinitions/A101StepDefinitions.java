@@ -10,7 +10,7 @@ import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.JSUtils;
 
-
+// test amaçlı yazılmıştır.
 public class A101StepDefinitions {
 
     HomePage homePage = new HomePage();
