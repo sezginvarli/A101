@@ -32,6 +32,7 @@ public class A101StepDefinitions {
         homePage.kategori.click();
         JSUtils.clickElementByJS(homePage.siyahçorap);
         Thread.sleep(1000);
+        Thread.sleep(1000);
 
 
     }
