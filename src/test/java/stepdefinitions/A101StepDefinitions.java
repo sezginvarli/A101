@@ -93,6 +93,7 @@ public class A101StepDefinitions {
         select3.selectByValue("36328");
         homePage.adres.sendKeys("Nagehan Sokağı No: 4B D:1");
         homePage.kaydet.click();
+        Thread.sleep(1000);
 
 
     }
