@@ -31,8 +31,8 @@ public class A101StepDefinitions {
         actions.moveToElement(homePage.anaKategori).perform();
         homePage.kategori.click();
         JSUtils.clickElementByJS(homePage.siyahçorap);
-        Thread.sleep(1000);
-        Thread.sleep(1000);
+        Thread.sleep(2000);
+
 
 
     }
