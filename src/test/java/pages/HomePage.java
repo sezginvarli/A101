@@ -89,10 +89,4 @@ public class HomePage {
     public WebElement çerez;
 
 
-
-
-
-
-
-
 }
